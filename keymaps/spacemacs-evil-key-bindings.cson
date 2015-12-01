@@ -16,6 +16,7 @@
   'space a k' :  'application:open-your-keymap'
   'space a r' :  'window:reload'
   'space a s' :  'application:show-settings'
+  'space f e d' :  'application:show-settings'
 
   # file and command palette
   'space :'    : 'command-palette:toggle'
@@ -25,8 +26,10 @@
   'space f y'  :  'editor:copy-path'
 
   # windows/panes
-  'space 1'    : 'window:focus-pane-on-left'
-  'space 2'    : 'window:focus-pane-on-right'
+  'space w h'    : 'window:focus-pane-on-left'
+  'space w l'    : 'window:focus-pane-on-right'
+  'space w j'    : 'window:focus-pane-below'
+  'space w k'    : 'window:focus-pane-above'
   'space b n'  : 'pane:show-next-item'
   'space b p'  : 'pane:show-previous-item'
   'space w w'  : 'window:focus-next-pane'

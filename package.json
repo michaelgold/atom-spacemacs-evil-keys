@@ -1,16 +1,13 @@
 {
-  "name": "spacemacs-evil-keys",
-  "main": "./lib/spacemacs-evil-keys",
-  "version": "0.0.0",
+  "name": "spacemacs-evil-key-bindings",
+  "main": "./lib/spacemacs-evil-key-bindings",
+  "version": "0.1.0",
   "description": "Adds spacemacs style evil-mode keybindings.",
   "keywords": [ "spacemacs", "evil-mode", "vim"
   ],
-  "repository": "https://github.com/jackcasey/atom-spacemacs-evil-keys",
+  "repository": "https://github.com/michaelgold/atom-spacemacs-evil-keys",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "vim-mode": ">=0.1.0"
   }
 }
